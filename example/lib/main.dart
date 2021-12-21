@@ -61,9 +61,9 @@ class _MyAppState extends State<MyApp> {
     return Text(text, style: textStyle);
   }
 
-  void colorBarChanged(Color val) {
+  void colorBarChanged(Color? val) {
     this.setState(() {
-      _statusBarColor = val;
+      _statusBarColor = val ?? Colors.white;
     });
     updateStatusBar();
   }
@@ -74,22 +74,22 @@ class _MyAppState extends State<MyApp> {
         animated: _statusBarColorAnimated);
   }
 
-  void statusBarAnimationChanged(StatusBarAnimation val) {
+  void statusBarAnimationChanged(StatusBarAnimation? val) {
     this.setState(() {
-      _statusBarAnimation = val;
+      _statusBarAnimation = val ?? StatusBarAnimation.FADE;
     });
   }
 
-  void statusBarStyleChanged(StatusBarStyle val) {
+  void statusBarStyleChanged(StatusBarStyle? val) {
     this.setState(() {
-      _statusBarStyle = val;
+      _statusBarStyle = val ?? StatusBarStyle.DEFAULT;
     });
-    FlutterStatusbarManager.setStyle(val);
+    FlutterStatusbarManager.setStyle(val ?? StatusBarStyle.DEFAULT);
   }
 
-  void colorNavBarChanged(Color val) {
+  void colorNavBarChanged(Color? val) {
     this.setState(() {
-      _navBarColor = val;
+      _navBarColor = val ?? Colors.white;
     });
     updateNavBar();
   }
@@ -99,11 +99,12 @@ class _MyAppState extends State<MyApp> {
         animated: _navBarColorAnimated);
   }
 
-  void navigationBarStyleChanged(NavigationBarStyle val) {
+  void navigationBarStyleChanged(NavigationBarStyle? val) {
     this.setState(() {
-      _navBarStyle = val;
+      _navBarStyle = val ?? NavigationBarStyle.DEFAULT;
     });
-    FlutterStatusbarManager.setNavigationBarStyle(val);
+    FlutterStatusbarManager.setNavigationBarStyle(
+        val ?? NavigationBarStyle.DEFAULT);
   }
 
   @override
@@ -228,8 +229,8 @@ class _MyAppState extends State<MyApp> {
                     this.setState(() {
                       _statusBarTranslucent = val;
                     });
-                    FlutterStatusbarManager
-                        .setTranslucent(_statusBarTranslucent);
+                    FlutterStatusbarManager.setTranslucent(
+                        _statusBarTranslucent);
                   },
                 ),
                 Divider(height: 25.0),
@@ -241,8 +242,8 @@ class _MyAppState extends State<MyApp> {
                     this.setState(() {
                       _loadingIndicator = val;
                     });
-                    FlutterStatusbarManager
-                        .setNetworkActivityIndicatorVisible(_loadingIndicator);
+                    FlutterStatusbarManager.setNetworkActivityIndicatorVisible(
+                        _loadingIndicator);
                   },
                 ),
                 Divider(height: 25.0),

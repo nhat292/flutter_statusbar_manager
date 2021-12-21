@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="880be7c8-acc0-4c06-88d3-55cc2ce96ea9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -31,13 +32,23 @@
     <option name="width" value="1440" />
     <option name="height" value="798" />
   </component>
+  <component name="ProjectId" id="22a9BI55PP2vTd80U6kkPMIKhXp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -86,6 +97,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,31 +110,5 @@
       <updated>1532106727427</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="488" y="312" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598547784861">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state x="488" y="312" width="1071" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598547784861" />
-    <state width="2006" height="741" key="GridCell.Tab.0.bottom" timestamp="1598548814726">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state width="2006" height="741" key="GridCell.Tab.0.bottom/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598548814726" />
-    <state width="2006" height="741" key="GridCell.Tab.0.center" timestamp="1598548814725">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state width="2006" height="741" key="GridCell.Tab.0.center/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598548814725" />
-    <state width="2006" height="741" key="GridCell.Tab.0.left" timestamp="1598548814725">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state width="2006" height="741" key="GridCell.Tab.0.left/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598548814725" />
-    <state width="2006" height="741" key="GridCell.Tab.0.right" timestamp="1598548814725">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state width="2006" height="741" key="GridCell.Tab.0.right/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598548814725" />
-    <state x="525" y="320" key="SettingsEditor" timestamp="1598547782136">
-      <screen x="0" y="23" width="2048" height="1257" />
-    </state>
-    <state x="525" y="320" key="SettingsEditor/2048.23.1920.1057/0.23.2048.1257@0.23.2048.1257" timestamp="1598547782136" />
   </component>
 </project>
